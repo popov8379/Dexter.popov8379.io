@@ -68,3 +68,7 @@ header h1 {
         bottom: 0;
         width: 100%;
     }
+
+    .carousel .img-responsive {
+        width:100%;
+      }
