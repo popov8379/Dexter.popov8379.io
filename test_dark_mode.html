@@ -10,6 +10,17 @@
 </head>
 
 <body>
+    <style>
+        body {
+            background: linear-gradient(135deg, #8b0000 0%, #2b0000 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        [data-bs-theme="light"] body {
+            background: linear-gradient(135deg, #ff9999 0%, #ffcccc 100%);
+        }
+    </style>
     <button type="button" class="btn btn-light" onclick="document.documentElement.setAttribute('data-bs-theme', document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark')">
         Toggle theme
     </button>
