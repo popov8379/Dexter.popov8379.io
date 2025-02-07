@@ -1,7 +1,7 @@
 <!--mode sombre https://laconsole.dev/blog/comment-creer-dark-mode-css-js/-->
 
 <!DOCTYPE html>
-<html lang="fr" >
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,8 @@
                 <li class="page-item">
                     <a class="page-link" href="protagoniste.html">Page Suivante</a>
                 </li>
-                <button type="button" class="btn btn-light" onclick="document.documentElement.setAttribute('data-bs-theme', document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark')">
+                <button type="button" class="btn btn-light"
+                    onclick="document.documentElement.setAttribute('data-bs-theme', document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark')">
                     ☼ / ☽
                 </button>
             </ul>
@@ -53,41 +54,43 @@
                         d'humour noir. Elle explore des thèmes complexes comme la moralité, la justice et la nature
                         humaine, tout en maintenant le spectateur en haleine avec ses intrigues captivantes.</p>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                <div class="row-fluid">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="height: 15%;">
+                                <img src="image/dexter1.jpg" class="d-block w-100" alt="Dexter">
+                            </div>
+                            <div class="carousel-item" style="height: 15%;">
+                                <img src="image/doakes.webp" class="d-block w-100" alt="doakes">
+                            </div>
+                            <div class="carousel-item" style="height: 15%;">
+                                <img src="image/brian.webp" class="d-block w-100" alt="brian">
+                            </div>
+                            <div class="carousel-item" style="height: 15%;">
+                                <img src="image/saison_8.jpg" class="d-block w-100" alt="saison_8">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Précedent</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Suivant</span>
+                        </button>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" style="height: 15%;">
-                            <img src="image/dexter1.jpg" class="d-block w-100" alt="Dexter">
-                        </div>
-                        <div class="carousel-item" style="height: 15%;">
-                            <img src="image/doakes.webp" class="d-block w-100" alt="doakes">
-                        </div>
-                        <div class="carousel-item" style="height: 15%;">
-                            <img src="image/brian.webp" class="d-block w-100" alt="brian">
-                        </div>
-                        <div class="carousel-item" style="height: 15%;">
-                            <img src="image/saison_8.jpg" class="d-block w-100" alt="saison_8">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Précedent</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Suivant</span>
-                    </button>
                 </div>
             </div>
             <div class="col-md-4">
@@ -127,8 +130,8 @@
                                 class="text-light">Classement IMDB Dexter</a></li>
                         <li><a href="Troll.html" class="text-light">Ne cliquez pas ici !!! </a></li>
                         <li><a href="https://www.netflix.com/ca-fr/title/70136126" class="text-light">Netflix</a></li>
-                        <li><a href="https://darkiworld2.com/titles/61380/dexter"
-                            class="text-light">Dexter sur Darki</a></li>
+                        <li><a href="https://darkiworld2.com/titles/61380/dexter" class="text-light">Dexter sur
+                                Darki</a></li>
                     </ul>
                 </div>
             </div>
